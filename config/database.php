@@ -3,4 +3,6 @@
 $host = 'localhost';
 $user = 'root';
 $pass = '';
-$db = ''
+$db = 'aplikasi_penjualan';
+
+$koneksi = new mysqli($host, $user, $pass, $db);
